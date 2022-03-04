@@ -1,5 +1,5 @@
 // Search Handler
-// const searchResult = document.getElementById("search-result");
+const searchResult = document.getElementById("search-result");
 const itemDetail = document.getElementById("details");
 const searchPhone = () => {
   const searchField = document.getElementById("search-field");
