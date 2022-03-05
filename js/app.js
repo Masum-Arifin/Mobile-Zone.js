@@ -4,7 +4,7 @@ const itemDetail = document.getElementById("details");
 const searchPhone = () => {
   const searchField = document.getElementById("search-field");
   const searchInput = searchField.value;
-  // searchField.value = "";
+  searchField.value = "";
 
   // Error Handling
   const errorDiv = document.getElementById("error-message");
