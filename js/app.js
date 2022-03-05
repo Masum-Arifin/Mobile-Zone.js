@@ -6,7 +6,7 @@ const searchPhone = () => {
   const searchInput = searchField.value;
   searchField.value = "";
 
-  // Error Handling
+  Error Handling
   const errorDiv = document.getElementById("error-message");
   if (searchInput == "") {
     errorDiv.innerText = "Please write something to search.";
