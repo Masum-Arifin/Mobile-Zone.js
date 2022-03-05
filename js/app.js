@@ -3,7 +3,7 @@ const searchResult = document.getElementById("search-result");
 const itemDetail = document.getElementById("details");
 const searchPhone = () => {
   const searchField = document.getElementById("search-field");
-  const searchInput = searchField.value;
+  // const searchInput = searchField.value;
   searchField.value = "";
 
   // Error Handling
