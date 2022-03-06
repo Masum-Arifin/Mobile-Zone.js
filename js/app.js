@@ -11,7 +11,7 @@ const searchPhone = () => {
   if (searchInput == "") {
     errorDiv.innerText = "Please write something to search.";
   } else {
-    // errorDiv.innerText = "";
+    errorDiv.innerText = "";
     // Load Phone APi ..
     const url = `https://openapi.programming-hero.com/api/phones?search=${searchInput}`;
     fetch(url)
