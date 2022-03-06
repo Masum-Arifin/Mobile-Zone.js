@@ -8,7 +8,7 @@ const searchPhone = () => {
 
   // Error Handling
   const errorDiv = document.getElementById("error-message");
-  if (searchInput == "") {
+  // if (searchInput == "") {
     errorDiv.innerText = "Please write something to search.";
   } else {
     errorDiv.innerText = "";
