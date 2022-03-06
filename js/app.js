@@ -10,7 +10,7 @@ const searchPhone = () => {
   const errorDiv = document.getElementById("error-message");
   if (searchInput == "") {
     errorDiv.innerText = "Please write something to search.";
-  } else {
+  // } else {
     errorDiv.innerText = "";
     // Load Phone APi ..
     const url = `https://openapi.programming-hero.com/api/phones?search=${searchInput}`;
