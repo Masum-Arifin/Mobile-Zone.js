@@ -9,7 +9,7 @@ const searchPhone = () => {
   // Error Handling
   const errorDiv = document.getElementById("error-message");
   if (searchInput == "") {
-    errorDiv.innerText = "Please write something to search.";
+    // errorDiv.innerText = "Please write something to search.";
   } else {
     errorDiv.innerText = "";
     // Load Phone APi ..
