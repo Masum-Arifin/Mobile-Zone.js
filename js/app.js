@@ -23,7 +23,7 @@ const displaySearchResult = (phone) => {
   const errorDiv = document.getElementById("error-message");
   if (phone.length == 0) {
     errorDiv.innerText = "No Result Found!";
-    searchResult.textContent = "";
+    // searchResult.textContent = "";
     itemDetail.textContent = "";
   } else {
     const twentyProducts = phone.slice(0, 20);
