@@ -16,7 +16,7 @@ const searchPhone = () => {
     const url = `https://openapi.programming-hero.com/api/phones?search=${searchInput}`;
     fetch(url)
       .then((response) => response.json())
-      // .then((data) => displaySearchResult(data.data));
+      .then((data) => displaySearchResult(data.data));
   }
 };
 const displaySearchResult = (phone) => {
