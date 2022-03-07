@@ -19,7 +19,7 @@ const searchPhone = () => {
       .then((data) => displaySearchResult(data.data));
   }
 };
-// const displaySearchResult = (phone) => {
+const displaySearchResult = (phone) => {
   const errorDiv = document.getElementById("error-message");
   if (phone.length == 0) {
     errorDiv.innerText = "No Result Found!";
