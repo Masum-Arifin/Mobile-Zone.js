@@ -21,7 +21,7 @@ const searchPhone = () => {
 };
 const displaySearchResult = (phone) => {
   const errorDiv = document.getElementById("error-message");
-  // if (phone.length == 0) {
+  if (phone.length == 0) {
     errorDiv.innerText = "No Result Found!";
     searchResult.textContent = "";
     itemDetail.textContent = "";
