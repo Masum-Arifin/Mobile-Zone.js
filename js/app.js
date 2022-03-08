@@ -30,7 +30,7 @@ const displaySearchResult = (phone) => {
     searchResult.textContent = "";
     twentyProducts.forEach((phone) => {
       const div = document.createElement("div");
-      // div.classList.add("col");
+      div.classList.add("col");
       div.innerHTML = `
           <div class="card">
               <img class="w-50 mx-auto pt-2" src="${phone.image}" class="card-img-top" alt="">
