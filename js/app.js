@@ -27,7 +27,7 @@ const displaySearchResult = (phone) => {
     itemDetail.textContent = "";
   } else {
     const twentyProducts = phone.slice(0, 20);
-    // searchResult.textContent = "";
+    searchResult.textContent = "";
     twentyProducts.forEach((phone) => {
       const div = document.createElement("div");
       div.classList.add("col");
