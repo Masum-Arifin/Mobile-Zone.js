@@ -25,7 +25,7 @@ const displaySearchResult = (phone) => {
     errorDiv.innerText = "No Result Found!";
     searchResult.textContent = "";
     itemDetail.textContent = "";
-  // } else {
+  } else {
     const twentyProducts = phone.slice(0, 20);
     searchResult.textContent = "";
     twentyProducts.forEach((phone) => {
