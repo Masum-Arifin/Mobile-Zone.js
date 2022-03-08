@@ -29,7 +29,7 @@ const displaySearchResult = (phone) => {
     const twentyProducts = phone.slice(0, 20);
     searchResult.textContent = "";
     twentyProducts.forEach((phone) => {
-      // const div = document.createElement("div");
+      const div = document.createElement("div");
       div.classList.add("col");
       div.innerHTML = `
           <div class="card">
