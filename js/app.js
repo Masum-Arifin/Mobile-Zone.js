@@ -33,7 +33,7 @@ const displaySearchResult = (phone) => {
       div.classList.add("col");
       div.innerHTML = `
           <div class="card">
-              // <img class="w-50 mx-auto pt-2" src="${phone.image}" class="card-img-top" alt="">
+              <img class="w-50 mx-auto pt-2" src="${phone.image}" class="card-img-top" alt="">
               <div class="card-body">
                   <h4 class="fs-4">${phone.phone_name}</h4>
                   <h5 class="fs-5 my-3">Brand: ${phone.brand}</h5>
