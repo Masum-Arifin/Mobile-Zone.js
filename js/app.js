@@ -41,7 +41,7 @@ const displaySearchResult = (phone) => {
               </div>
           </div>
           `;
-      searchResult.appendChild(div);
+      // searchResult.appendChild(div);
     });
   }
 };
