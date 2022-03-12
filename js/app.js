@@ -54,7 +54,7 @@ const showDetails = (itemId) => {
     .then((data) => displayPhoneDetails(data.data));
 };
 
-display Phone Features
+// display Phone Features
 
 const displayPhoneDetails = (item) => {
   const div = document.createElement("div");
