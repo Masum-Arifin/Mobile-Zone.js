@@ -56,7 +56,7 @@ const showDetails = (itemId) => {
 
 // display Phone Features
 
-const displayPhoneDetails = (item) => {
+// const displayPhoneDetails = (item) => {
   const div = document.createElement("div");
   div.classList.add("row");
   div.innerHTML = `
