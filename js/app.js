@@ -51,7 +51,7 @@ const showDetails = (itemId) => {
   const url = `https://openapi.programming-hero.com/api/phone/${itemId}`;
   fetch(url)
     .then((response) => response.json())
-    // .then((data) => displayPhoneDetails(data.data));
+    .then((data) => displayPhoneDetails(data.data));
 };
 
 // display Phone Features
