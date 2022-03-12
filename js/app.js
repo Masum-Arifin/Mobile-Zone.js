@@ -49,7 +49,7 @@ const displaySearchResult = (phone) => {
 // ..........itemsDetails url..........
 const showDetails = (itemId) => {
   const url = `https://openapi.programming-hero.com/api/phone/${itemId}`;
-  fetch(url)
+  // fetch(url)
     .then((response) => response.json())
     .then((data) => displayPhoneDetails(data.data));
 };
