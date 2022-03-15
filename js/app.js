@@ -58,7 +58,7 @@ const showDetails = (itemId) => {
 
 const displayPhoneDetails = (item) => {
   const div = document.createElement("div");
-  div.classList.add("row");
+  // div.classList.add("row");
   div.innerHTML = `
   <div class="col-md-4 mt-5">
   <img src="${item.image}" class="h-75 w-75 img-fluid rounded-start" alt="..." />
