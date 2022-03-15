@@ -67,7 +67,7 @@ const displayPhoneDetails = (item) => {
           
           <div class="card-body text-start">
               <h3 class="card-title text-light">Brand: ${item.brand}</h3>
-              <h5 class="area text-light">Name: <span>${item.name}</span></h5>
+              // <h5 class="area text-light">Name: <span>${item.name}</span></h5>
               <h5 class="model text-light">Model: <span>${item.slug}</span></h5>
               <h5 class="release text-light">Release: ${item?.releaseDate}</span></p>
               <h5 class="fw-bold text-light"> Main Features</h5>
