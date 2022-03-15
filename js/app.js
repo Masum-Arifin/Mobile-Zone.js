@@ -63,7 +63,7 @@ const displayPhoneDetails = (item) => {
   <div class="col-md-4 mt-5">
   <img src="${item.image}" class="h-75 w-75 img-fluid rounded-start" alt="..." />
     </div>
-      // <div class="col-md-8 mt-5">
+      <div class="col-md-8 mt-5">
           
           <div class="card-body text-start">
               <h3 class="card-title text-light">Brand: ${item.brand}</h3>
