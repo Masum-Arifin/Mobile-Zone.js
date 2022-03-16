@@ -71,7 +71,7 @@ const displayPhoneDetails = (item) => {
               <h5 class="model text-light">Model: <span>${item.slug}</span></h5>
               <h5 class="release text-light">Release: ${item?.releaseDate}</span></p>
               <h5 class="fw-bold text-light"> Main Features</h5>
-      <h6 class="text-light"><span class="fw-bold text-light">Chipset:</span> ${item.mainFeatures.chipSet}</h6>
+      // <h6 class="text-light"><span class="fw-bold text-light">Chipset:</span> ${item.mainFeatures.chipSet}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">Display Size:</span> ${item.mainFeatures.displaySize}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">Memory:</span> ${item.mainFeatures.memory}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">Sensors:</span> ${item.mainFeatures.sensors}</h6>
