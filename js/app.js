@@ -76,7 +76,7 @@ const displayPhoneDetails = (item) => {
       <h6 class="text-light"><span class="fw-bold text-light">Memory:</span> ${item.mainFeatures.memory}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">Sensors:</span> ${item.mainFeatures.sensors}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">storage:</span> ${item.mainFeatures.storage}</h6>
-      // <h4 class="fw-bold text-light"> Others</h4>
+      <h4 class="fw-bold text-light"> Others</h4>
       <h6 class="text-light"><span class="fw-bold text-light">Bluetooth:</span> ${item.others?.Bluetooth}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">GPS:</span> ${item.others?.GPS}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">NFC:</span> ${item.others?.NFC}</h6>
