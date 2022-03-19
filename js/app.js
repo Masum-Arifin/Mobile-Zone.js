@@ -80,7 +80,7 @@ const displayPhoneDetails = (item) => {
       <h6 class="text-light"><span class="fw-bold text-light">Bluetooth:</span> ${item.others?.Bluetooth}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">GPS:</span> ${item.others?.GPS}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">NFC:</span> ${item.others?.NFC}</h6>
-      <h6 class="text-light"><span class="fw-bold text-light">Radio:</span> ${item.others?.Radio}</h6>
+      // <h6 class="text-light"><span class="fw-bold text-light">Radio:</span> ${item.others?.Radio}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">USB:</span> ${item.others?.USB}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">WLAN:</span> ${item.others?.WLAN}</h6>
       
