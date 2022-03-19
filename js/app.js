@@ -84,7 +84,7 @@ const displayPhoneDetails = (item) => {
       <h6 class="text-light"><span class="fw-bold text-light">USB:</span> ${item.others?.USB}</h6>
       <h6 class="text-light"><span class="fw-bold text-light">WLAN:</span> ${item.others?.WLAN}</h6>
       
-               <button onclick="less()" class="btn btn-danger shadow-none">show less</button>
+              //  <button onclick="less()" class="btn btn-danger shadow-none">show less</button>
           </div>
       </div>
   `;
