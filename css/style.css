@@ -1,0 +1,10 @@
+ @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: url('/images/back-img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+ 
